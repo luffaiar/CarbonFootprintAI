@@ -7,12 +7,12 @@ import streamlit as st
 load_dotenv()
 
 # Get API key
-api_key = os.getenv("AIzaSyBTAZG3YTiLzOaz-qT2OHbSwOXIUf5rHqU")
+api_key = os.getenv("GEMINI API KEY")
 
 # If running on Streamlit Cloud, use Secrets
 if not api_key:
     try:
-        api_key = st.secrets["AIzaSyBTAZG3YTiLzOaz-qT2OHbSwOXIUf5rHqU"]
+        api_key = st.secrets["GEMINI API KEY"]
     except:
         api_key = None
 
