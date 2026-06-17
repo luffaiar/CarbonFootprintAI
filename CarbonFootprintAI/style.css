@@ -1,0 +1,22 @@
+.stApp {
+    background: linear-gradient(135deg, #081c15, #1b4332);
+}
+
+h1, h2, h3 {
+    color: #95d5b2 !important;
+}
+
+.stButton > button {
+    background-color: #2d6a4f;
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #40916c;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: #081c15;
+}
